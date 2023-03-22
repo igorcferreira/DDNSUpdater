@@ -9,7 +9,7 @@ The [updateddns](Sources/updateddns/updateddns.swift) command line tool can be u
 ### Library Usage
 
 ```swift
-import DDNSIPUpdater
+import DDNSUpdater
 
 let authentication = BaseAuthentication(username: "account_username", password: "Account Password")
 let updater = DDNSUpdater(authentcation: authentication, serviceHostname: "dynupdate.no-ip.com")
